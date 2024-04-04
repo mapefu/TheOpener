@@ -1,0 +1,58 @@
+[gd_scene load_steps=5 format=3 uid="uid://bpln68mly5mw4"]
+
+[ext_resource type="Texture2D" uid="uid://hkpd7ljuv5fs" path="res://Imagenes/Texturas/Tiles/Backgrounds/tile_0007.png" id="1_f84kl"]
+[ext_resource type="Script" path="res://Scripts/Level1.gd" id="2_8e6un"]
+[ext_resource type="Script" path="res://Scripts/TornarAlMenu.gd" id="2_coxhk"]
+[ext_resource type="Script" path="res://Scripts/Level2.gd" id="3_fdh1i"]
+
+[node name="Levels" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -141.0
+offset_top = -45.0
+offset_right = 1365.0
+offset_bottom = 702.0
+texture = ExtResource("1_f84kl")
+
+[node name="Label" type="Label" parent="."]
+offset_top = 79.0
+offset_right = 1152.0
+offset_bottom = 244.0
+theme_override_colors/font_color = Color(0, 0.976471, 0.513726, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 85
+theme_override_font_sizes/font_size = 120
+text = "NIVELLS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Level1" type="Button" parent="."]
+offset_left = 464.0
+offset_top = 336.0
+offset_right = 536.0
+offset_bottom = 407.0
+theme_override_font_sizes/font_size = 40
+text = "1"
+script = ExtResource("2_8e6un")
+
+[node name="Level2" type="Button" parent="."]
+offset_left = 616.0
+offset_top = 336.0
+offset_right = 688.0
+offset_bottom = 407.0
+theme_override_font_sizes/font_size = 40
+text = "2"
+script = ExtResource("3_fdh1i")
+
+[node name="TornarAlMenú" type="Button" parent="."]
+offset_left = 376.0
+offset_top = 488.0
+offset_right = 776.0
+offset_bottom = 560.0
+theme_override_font_sizes/font_size = 37
+text = "TORNAR AL MENÚ"
+script = ExtResource("2_coxhk")
+
+[connection signal="button_down" from="Level1" to="Level1" method="_on_button_down"]
+[connection signal="button_down" from="Level2" to="Level2" method="_on_button_down"]
+[connection signal="button_down" from="TornarAlMenú" to="TornarAlMenú" method="_on_button_down"]

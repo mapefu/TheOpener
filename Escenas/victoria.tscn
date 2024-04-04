@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfcxafxkctc15"]
+
+[ext_resource type="Texture2D" uid="uid://hkpd7ljuv5fs" path="res://Imagenes/Texturas/Tiles/Backgrounds/tile_0007.png" id="1_nn3y0"]
+[ext_resource type="Script" path="res://Scripts/TornarAlMenu.gd" id="2_ge7my"]
+
+[node name="Victoria" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -141.0
+offset_top = -45.0
+offset_right = 1365.0
+offset_bottom = 702.0
+texture = ExtResource("1_nn3y0")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="."]
+offset_top = 79.0
+offset_right = 1152.0
+offset_bottom = 244.0
+theme_override_colors/font_color = Color(0, 0.976471, 0.513726, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 85
+theme_override_font_sizes/font_size = 120
+text = "VICTÒRIA"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="TornarAlMenú" type="Button" parent="."]
+offset_left = 288.0
+offset_top = 376.0
+offset_right = 864.0
+offset_bottom = 512.0
+theme_override_font_sizes/font_size = 60
+text = "TORNAR AL MENÚ"
+script = ExtResource("2_ge7my")
+
+[connection signal="button_down" from="TornarAlMenú" to="TornarAlMenú" method="_on_button_down"]

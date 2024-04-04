@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://q1sufpohfsgm"]
+
+[ext_resource type="PackedScene" uid="uid://cf8efvm1qif8j" path="res://Escenas/mapa_2.tscn" id="1_eun7l"]
+[ext_resource type="PackedScene" uid="uid://byn2b7saa2r47" path="res://Escenas/Character.tscn" id="2_mugta"]
+[ext_resource type="PackedScene" uid="uid://crikhy7cxeda6" path="res://Escenas/llave.tscn" id="3_a13vd"]
+[ext_resource type="PackedScene" uid="uid://c8ltoyhhw54ck" path="res://Escenas/cerradura.tscn" id="4_3g8pm"]
+
+[node name="Nivell2" type="Node2D"]
+
+[node name="Mapa2" parent="." instance=ExtResource("1_eun7l")]
+
+[node name="Character" parent="." instance=ExtResource("2_mugta")]
+position = Vector2(72, 64)
+
+[node name="Llave" parent="." instance=ExtResource("3_a13vd")]
+position = Vector2(160, 408)
+
+[node name="Cerradura" parent="." instance=ExtResource("4_3g8pm")]
+position = Vector2(376, 24)
+scale = Vector2(0.805, 0.805)

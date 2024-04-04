@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://c8ltoyhhw54ck"]
+
+[ext_resource type="Script" path="res://Scripts/Cerradura.gd" id="1_84fwg"]
+[ext_resource type="Texture2D" uid="uid://k8cqfrepxbvl" path="res://Imagenes/Texturas/Tiles/tile_0028.png" id="1_xnmwl"]
+[ext_resource type="PackedScene" uid="uid://cfcxafxkctc15" path="res://Escenas/victoria.tscn" id="2_m0pjx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cq6pb"]
+size = Vector2(66, 66)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4td08"]
+size = Vector2(64, 64)
+
+[node name="Cerradura" type="Node2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("1_84fwg")
+VolverAJugar = ExtResource("2_m0pjx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_cq6pb")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_4td08")
+
+[node name="ImagenCerradura" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(4.54747e-13, 4.54747e-13)
+scale = Vector2(3.61111, 3.61111)
+texture = ExtResource("1_xnmwl")
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
