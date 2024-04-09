@@ -28,8 +28,8 @@ colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_i5eek"]
 gradient = SubResource("Gradient_k8tvn")
-width = 650
-height = 650
+width = 2000
+height = 2000
 fill = 1
 fill_from = Vector2(0.509174, 0.477064)
 
@@ -48,4 +48,5 @@ frame_progress = 0.532095
 shape = SubResource("RectangleShape2D_eyalq")
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
+shadow_enabled = true
 texture = SubResource("GradientTexture2D_i5eek")
