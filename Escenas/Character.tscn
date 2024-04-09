@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://byn2b7saa2r47"]
+[gd_scene load_steps=9 format=3 uid="uid://byn2b7saa2r47"]
 
 [ext_resource type="Script" path="res://Scripts/CharacterBody2D.gd" id="1_hfy7k"]
 [ext_resource type="Texture2D" uid="uid://x33f40ignn1w" path="res://Imagenes/Texturas/Tiles/Characters/tile_0002.png" id="2_80na1"]
@@ -22,6 +22,17 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eyalq"]
 size = Vector2(38, 47)
 
+[sub_resource type="Gradient" id="Gradient_k8tvn"]
+offsets = PackedFloat32Array(0, 0.616883)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_i5eek"]
+gradient = SubResource("Gradient_k8tvn")
+width = 650
+height = 650
+fill = 1
+fill_from = Vector2(0.509174, 0.477064)
+
 [node name="Character" type="CharacterBody2D"]
 script = ExtResource("1_hfy7k")
 VolverAJugar = ExtResource("2_n1ooq")
@@ -35,3 +46,6 @@ frame_progress = 0.532095
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_eyalq")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+texture = SubResource("GradientTexture2D_i5eek")

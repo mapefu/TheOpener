@@ -13,8 +13,8 @@
 position = Vector2(72, 312)
 
 [node name="Llave" parent="." instance=ExtResource("3_ge0go")]
-position = Vector2(456, 360)
+position = Vector2(985, 312)
 
 [node name="Cerradura" parent="." instance=ExtResource("4_8v827")]
-position = Vector2(1080, 360)
+position = Vector2(24, 600)
 scale = Vector2(0.805, 0.805)

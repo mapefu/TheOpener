@@ -598,6 +598,10 @@ texture = ExtResource("1_888tj")
 stretch_mode = 1
 metadata/_edit_use_anchors_ = true
 
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+scale = Vector2(3, 3)
+color = Color(0, 0, 0, 1)
+
 [node name="TileMap" type="TileMap" parent="."]
 texture_filter = 1
 scale = Vector2(3, 3)
