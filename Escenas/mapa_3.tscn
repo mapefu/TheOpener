@@ -1,102 +1,23 @@
-[gd_scene load_steps=29 format=3 uid="uid://bwlg5tg7hk7yf"]
+[gd_scene load_steps=4 format=3 uid="uid://bwlg5tg7hk7yf"]
 
 [ext_resource type="Texture2D" uid="uid://d25s665ox2jue" path="res://Imagenes/Texturas/Tilemap/tilemap_packed.png" id="1_s3khk"]
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_xulok"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_2sq2q"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_fhslm"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_ncnt1"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_v1yyn"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_it8bv"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_g5mgp"]
-polygon = PackedVector2Array(-4.25, -8, 4.5, -8, 4.125, 9.625, -3.625, 9.125, -4.5, 5.75)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_tr6kf"]
-polygon = PackedVector2Array(-4.25, -8, 4.5, -8, 4.125, 9.625, -3.625, 9.125, -4.5, 5.75)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_b0and"]
-polygon = PackedVector2Array(-4.25, -8, 4.5, -8, 4.125, 9.625, -3.625, 9.125, -4.5, 5.75)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_voec8"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_ypgtu"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_w6xbj"]
-polygon = PackedVector2Array(-9.125, -8.625, 8.5, -8.875, 8, 6.625, 5.30346, 6.01746, 4.125, 9.625, -3.625, 9.125, -4.5, 5.75, -8, 6.125)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_yeskp"]
-polygon = PackedVector2Array(-4.25, -8, 4.5, -8, 4.125, 9.625, -3.625, 9.125, -4.5, 5.75)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_bu1wt"]
-polygon = PackedVector2Array(-4.25, -8, 4.5, -8, 4.125, 9.625, -3.625, 9.125, -4.5, 5.75)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_ylkfd"]
-polygon = PackedVector2Array(4.625, -8, 6.25, -6.75, 8, -5.625, 3.625, 4.5, -2.25, -0.625)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_oud34"]
-polygon = PackedVector2Array(3.625, -8, 8, -8, 8, -1.75, 3.125, -1.5)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_f30cy"]
-polygon = PackedVector2Array(-4.25, -8, 4.5, -8, 4.125, 9.625, -3.625, 9.125, -4.5, 5.75)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_n28bm"]
-polygon = PackedVector2Array(-9, -7.125, 8, -7, 8, 1.625, 3.25, 3.25, -1.125, -1.625, -9, -3.25)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_7s15g"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, -1.75, -8, -2.375)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_tdqq4"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_ynfgo"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_y1h14"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_6n6po"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_0r8eb"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-
-[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_n5k5k"]
-polygon = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fevfw"]
 texture = ExtResource("1_s3khk")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
-0:0/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_xulok")
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
-1:0/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_tdqq4")
 1:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 1:0/0/physics_layer_0/angular_velocity = 0.0
 1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 2:0/0 = 0
-2:0/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_y1h14")
 2:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 2:0/0/physics_layer_0/angular_velocity = 0.0
 2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:0/0 = 0
-3:0/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_0r8eb")
 3:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 3:0/0/physics_layer_0/angular_velocity = 0.0
 3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -137,42 +58,34 @@ texture_region_size = Vector2i(18, 18)
 15:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 15:0/0/physics_layer_0/angular_velocity = 0.0
 16:0/0 = 0
-16:0/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_fhslm")
 16:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 16:0/0/physics_layer_0/angular_velocity = 0.0
 16:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 17:0/0 = 0
-17:0/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_voec8")
 17:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 17:0/0/physics_layer_0/angular_velocity = 0.0
 17:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 18:0/0 = 0
-18:0/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_voec8")
 18:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 18:0/0/physics_layer_0/angular_velocity = 0.0
 18:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 19:0/0 = 0
-19:0/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_voec8")
 19:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 19:0/0/physics_layer_0/angular_velocity = 0.0
 19:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 0:1/0 = 0
-0:1/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_2sq2q")
 0:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:1/0/physics_layer_0/angular_velocity = 0.0
 0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:1/0 = 0
-1:1/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_ynfgo")
 1:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 1:1/0/physics_layer_0/angular_velocity = 0.0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 2:1/0 = 0
-2:1/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_6n6po")
 2:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 2:1/0/physics_layer_0/angular_velocity = 0.0
 2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
-3:1/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_n5k5k")
 3:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 3:1/0/physics_layer_0/angular_velocity = 0.0
 3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -213,21 +126,17 @@ texture_region_size = Vector2i(18, 18)
 15:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 15:1/0/physics_layer_0/angular_velocity = 0.0
 16:1/0 = 0
-16:1/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_ncnt1")
 16:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 16:1/0/physics_layer_0/angular_velocity = 0.0
 16:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 17:1/0 = 0
-17:1/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_voec8")
 17:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 17:1/0/physics_layer_0/angular_velocity = 0.0
 17:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 18:1/0 = 0
-18:1/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_voec8")
 18:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 18:1/0/physics_layer_0/angular_velocity = 0.0
 19:1/0 = 0
-19:1/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_voec8")
 19:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 19:1/0/physics_layer_0/angular_velocity = 0.0
 19:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -284,22 +193,18 @@ texture_region_size = Vector2i(18, 18)
 15:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 15:2/0/physics_layer_0/angular_velocity = 0.0
 16:2/0 = 0
-16:2/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_v1yyn")
 16:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 16:2/0/physics_layer_0/angular_velocity = 0.0
 16:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 17:2/0 = 0
-17:2/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_voec8")
 17:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 17:2/0/physics_layer_0/angular_velocity = 0.0
 17:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 18:2/0 = 0
-18:2/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_voec8")
 18:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 18:2/0/physics_layer_0/angular_velocity = 0.0
 18:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 19:2/0 = 0
-19:2/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_voec8")
 19:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 19:2/0/physics_layer_0/angular_velocity = 0.0
 19:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -356,22 +261,18 @@ texture_region_size = Vector2i(18, 18)
 15:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 15:3/0/physics_layer_0/angular_velocity = 0.0
 16:3/0 = 0
-16:3/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_it8bv")
 16:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 16:3/0/physics_layer_0/angular_velocity = 0.0
 16:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 17:3/0 = 0
-17:3/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_ypgtu")
 17:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 17:3/0/physics_layer_0/angular_velocity = 0.0
 17:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 18:3/0 = 0
-18:3/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_ypgtu")
 18:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 18:3/0/physics_layer_0/angular_velocity = 0.0
 18:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 19:3/0 = 0
-19:3/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_ypgtu")
 19:3/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 19:3/0/physics_layer_0/angular_velocity = 0.0
 19:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -428,22 +329,18 @@ texture_region_size = Vector2i(18, 18)
 15:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 15:4/0/physics_layer_0/angular_velocity = 0.0
 16:4/0 = 0
-16:4/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_g5mgp")
 16:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 16:4/0/physics_layer_0/angular_velocity = 0.0
 16:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 4.75, -8, 4.625, -0.875, 8, -0.75, 8, 8, -4.75, 8, -4.75, 0.625, -8, 0.625)
 17:4/0 = 0
-17:4/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_w6xbj")
 17:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 17:4/0/physics_layer_0/angular_velocity = 0.0
 17:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 18:4/0 = 0
-18:4/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_ylkfd")
 18:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 18:4/0/physics_layer_0/angular_velocity = 0.0
 18:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 19:4/0 = 0
-19:4/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_n28bm")
 19:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 19:4/0/physics_layer_0/angular_velocity = 0.0
 19:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -504,22 +401,18 @@ texture_region_size = Vector2i(18, 18)
 15:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 15:5/0/physics_layer_0/angular_velocity = 0.0
 16:5/0 = 0
-16:5/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_tr6kf")
 16:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 16:5/0/physics_layer_0/angular_velocity = 0.0
 16:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.125, -8, 4.75, -8, 4.75, 8, -4.75, 8)
 17:5/0 = 0
-17:5/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_yeskp")
 17:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 17:5/0/physics_layer_0/angular_velocity = 0.0
 17:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.125, -8, 4.75, -8, 4.75, 8, -4.75, 8)
 18:5/0 = 0
-18:5/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_oud34")
 18:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 18:5/0/physics_layer_0/angular_velocity = 0.0
 18:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(2, -8, 8, -8, 8, 0.625, 1.875, -0.125)
 19:5/0 = 0
-19:5/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_7s15g")
 19:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 19:5/0/physics_layer_0/angular_velocity = 0.0
 19:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -2, 1.375, -1.375, -9.625, -2.25)
@@ -576,17 +469,14 @@ texture_region_size = Vector2i(18, 18)
 15:6/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 15:6/0/physics_layer_0/angular_velocity = 0.0
 16:6/0 = 0
-16:6/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_b0and")
 16:6/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 16:6/0/physics_layer_0/angular_velocity = 0.0
 16:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.125, -8, 4.75, -8, 4.75, 8, -4.75, 8)
 17:6/0 = 0
-17:6/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_bu1wt")
 17:6/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 17:6/0/physics_layer_0/angular_velocity = 0.0
 17:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.125, -8, 4.75, -8, 4.75, 8, -4.75, 8)
 18:6/0 = 0
-18:6/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_f30cy")
 18:6/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 18:6/0/physics_layer_0/angular_velocity = 0.0
 18:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.125, -8, 4.75, -8, 4.75, 8, -4.75, 8)
@@ -720,7 +610,6 @@ texture_region_size = Vector2i(18, 18)
 19:8/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSet" id="TileSet_74c3a"]
-occlusion_layer_0/light_mask = 1
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_fevfw")
 
@@ -737,5 +626,4 @@ layer_1/name = "Estructura"
 layer_1/tile_data = PackedInt32Array(589827, 65536, 0, 589828, 131072, 0, 589829, 196608, 0, 983049, 1048576, 6, 917513, 1048576, 5, 851977, 1048576, 5, 786441, 1048576, 5, 720905, 1114112, 5, 720906, 1245184, 5, 720907, 1245184, 4, 720904, 1245184, 5, 720903, 1179648, 4, 655374, 1048576, 1, 720910, 1048576, 2, 786446, 1048576, 3, 589842, 1048576, 1, 655378, 1048576, 2, 720914, 1048576, 3, 655369, 1048576, 1)
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-scale = Vector2(3, 3)
-color = Color(0.0784314, 0.0784314, 0.0784314, 1)
+color = Color(0, 0, 0, 1)
